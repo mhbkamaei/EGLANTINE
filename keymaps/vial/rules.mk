@@ -2,7 +2,7 @@ MCU = atmega32u4
 BOOTLOADER = caterina
 SPLIT_KEYBOARD = no
 BOOTMAGIC_ENABLE = no	# Virtual DIP switch configuration(+1000) V
-MOUSEKEY_ENABLE = yes	# Mouse keys(+4700)
+MOUSEKEY_ENABLE = no	# Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
 
 # DEBOUNCE_TYPE = sym_defer_g
@@ -12,7 +12,7 @@ EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
 
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
-VIAL_INSECURE = yes
+#VIAL_INSECURE = yes
 LTO_ENABLE = yes
 RGBLIGHT_ENABLE = no
 KEY_LOCK_ENABLE = no

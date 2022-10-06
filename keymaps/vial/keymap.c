@@ -1,4 +1,4 @@
-#include "EGLANTINE.h"
+#include "eglantine.h"
 #include QMK_KEYBOARD_H
 
 #define KC__ KC_TRNS
